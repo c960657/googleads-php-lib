@@ -8,6 +8,11 @@
     "homepage": "https://github.com/googleads/googleads-php-lib",
     "license": "Apache-2.0",
     "include-path": ["src/"],
+    "require": {
+      "ext-soa2p": "*",
+      "ext-curl": "*",
+      "ext-ssl": "*"
+    },
     "autoload": {
       "classmap": [
         "src/Google/Api/Ads/AdWords/Lib",
